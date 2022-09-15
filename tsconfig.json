@@ -2,8 +2,11 @@
   "include": ["src"],
   "compilerOptions": {
     "outDir": "build",
-    "lib": ["ES2015"],
+    "lib": ["ES6"],
     "target": "ES6",
-    "moduleResolution": "node"
+    "strict": true,
+    // "allowJs": true,
+    "esModuleInterop": true,
+    "module": "CommonJS"
   }
 }
